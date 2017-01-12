@@ -1,0 +1,33 @@
+#apache root directory
+alias apacheRoot='cd /Library/WebServer/Documents'
+
+#cat public key
+alias publickey="cat ~/.ssh/id_rsa.pub"
+
+
+# -----------------------------#
+# Project Aliases              #
+# -----------------------------#
+#aliases for project directories
+alias project1='cd /Directory/project1'
+alias project2='cd /Directory/project2'
+
+
+# -----------------------------#
+# Git Aliases                  #
+# -----------------------------#
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
+alias gta='git tag -a -m'
+alias gf='git reflog'
